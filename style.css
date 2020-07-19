@@ -1,0 +1,9 @@
+*{
+   background: linear-gradient(grey,crimson); 
+   background-repeat:  no-repeat;
+   height: 100vh;
+}
+.home{
+    display : flex;
+    flex-direction: row;
+}
