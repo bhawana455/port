@@ -40,7 +40,7 @@ nav{
  height: 1000px;
  position: absolute;  
  top: 50%; 
- left: -10%;
+ left: 0;
  transform: translateY(-50%);
 }
 #circle{
@@ -57,7 +57,16 @@ nav{
 }
 .features{
     position: absolute;
+    display: flex;
 }
+.features div {
+      margin-left: 30px;
+}
+.features div p{
+   margin-top: 8px;
+}
+
+
 .one{
     top: 450px;
     right: 50px;
