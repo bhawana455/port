@@ -48,12 +48,14 @@ nav{
    height: 1000px;
    position: absolute;
    top: 0;
-   left: 0;
+   left: -5%;
    border-radius:50% ;
-   background: #ccc;
+  background-color: rgba(223, 202, 202, 0.4);
+  
 }
 .features img{
     width:70px;
+    height: 70px;
 }
 .features{
     position: absolute;
@@ -84,4 +86,15 @@ nav{
     bottom: 150px;
     right: 350px;
 }
+.lip{
+     width:30%;
+     height: 300px;
+     position: absolute;
+     left: 40%;
+     top: 50%;
+     transform: translate(-50%, -50%);
+     background-image:url('lipbalm (1).png');
+     background-size: 100% 100%;
+     opacity: 100%;
 
+}
