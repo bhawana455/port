@@ -76,17 +76,17 @@ nav{
      
 }
 .two{
-    top: 150px;
+    top: 140px;
     left: 350px;
     transform:rotate(-90deg);
 }
 .three{
     bottom: 450px;
-    left:50px;
+    left:110px;
     transform:rotate(-180deg);
 }
 .four{
-    bottom: 150px;
+    bottom: 145px;
     right: 350px;
     transform:rotate(-270deg);
 }
@@ -101,6 +101,7 @@ nav{
      background-size: 100% 100%;
      opacity: 100%;
      z-index: 1;
+     border-radius: 50%
 
 }
 .controls{
